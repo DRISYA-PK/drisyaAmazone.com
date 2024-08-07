@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:borderbox;
+}
+.navbar{
+    height: 60px;
+   background-color: #0f1111;
+
+   
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 130px;
+}
+.logo,.logo1{
+    height:50px;
+    position: relative;
+    width: 130px;
+    background-size: 150px;
+    background-image: url("photoes/amazon-logo-");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}
+
+.address1{
+    color: #cccccc;
+    font-size: .7rem;;
+    margin-left: 19px;;
+}
+.address2{
+    font-size: .9rem;
+   margin-left: 1px;;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+.add-icon img{
+    width: 20px;;
+}
+.nav-search
+{
+    display: flex;
+    background-color: pink;
+    width:640px;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.select-search{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;;
+    border-bottom-left-radius: 5px;;
+    border: none;
+}
+.input-search{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #febd68;
+    border-radius: 5px;
+}
+span{
+    font-size: .7rem;
+}
+.nav-second{
+    font-size: .85rem;
+    font-weight: 700;
+}
+.nav-cart{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.nav-cart div{
+    position: relative;
+    top:11px;
+    font-size: .85rem;
+    font-weight: 700;
+}
+.panelall{
+    display: flex;
+    width: 50px;;
+   
+}
+
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    font-size: 15px;
+    align-items: normal;
+    position: relative;
+    
+}
+.panelall div{
+    position: absolute;
+    top: -15px;
+}
+.panel div{
+position: relative;
+    margin-left: 15px;;
+    height: 50%;
+    top: 10px;
+
+}
+.body-image
+{
+   width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+}
+.sale{
+    display: flex;
+    position: relative;
+   
+}
+.sale div{
+    height: 300px;
+    background-color: white;
+    width: 19%;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin-left: 10px;;
+}
+.sale div img{
+    width: 100%;
+    height:250px ;
+}
+.sale div  p{
+    font-size: 25px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sale div img:hover{
+    transform: scale(1.01);
+}
+footer{
+    margin-top: 20px;;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+
+}
+.footer-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 330px;;
+    display: flex;
+    justify-content: space-evenly
+    ;;
+}
+.footer-panel3{
+    background-color: #222f3d;
+    color: white;
+    height: 100px;;
+    display: flex;
+ position: relative;
+ font-size: .45 rem;
+}
+   
+
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: .85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.eng img , .india img{
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.logo1{
+    position: relative; top:30px; 
+    left:500px;  
+}
+.eng{
+    position: relative; top:30px; 
+    left:600px;
+    height:25px;
+    width: 110px; ;
+    border:1px solid gray;
+    align-items: center;
+    padding: 6px;;
+ 
+    display: flex;
+}
+.eng p,.india p{
+    
+    font-size: 12px;
+}
+.india
+{
+    position: relative; top:30px; 
+    left:620px;
+    height:25px;
+    width: 110px; ;
+    border:1px solid gray;
+    align-items: center;
+    padding: 6px;;
+    display: flex;
+    font-size: .45 rem;
+}
+.footer-panel4{
+    background-color: #2d2b35;
+    color: white;
+    height: 150px;;
+   
+ position: relative;
+
+
+}
+.footer-panel4 div { 
+
+    height:70px ;
+    display: flex;
+}
+.footer-panel4 div ul{
+    position: relative;
+    left: 400px;;
+    justify-content: space-between;
+
+
+}
+.footer-panel4 div ul p{
+    font-size: 11px;;
+}
+.footlink{
+    height: 50px;
+    width: 100%;
+    background-color: #2d2b35;
+    position: relative;
+    color: white;
+    
+}
